@@ -1,0 +1,33 @@
+#! /usr/bin/env python3
+
+launch_dir = '/Users/fyfaris/ns-3-dev'
+run_dir = '/Users/fyfaris/ns-3-dev'
+top_dir = '/Users/fyfaris/ns-3-dev'
+out_dir = '/Users/fyfaris/ns-3-dev/build'
+
+
+NS3_ENABLED_MODULES = ['ns3-zigbee', 'ns3-wifi', 'ns3-virtual-net-device', 'ns3-uan', 'ns3-traffic-control', 'ns3-topology-read', 'ns3-stats', 'ns3-spectrum', 'ns3-sixlowpan', 'ns3-propagation', 'ns3-point-to-point-layout', 'ns3-point-to-point', 'ns3-olsr', 'ns3-nix-vector-routing', 'ns3-network', 'ns3-netanim', 'ns3-mobility', 'ns3-mesh', 'ns3-lte', 'ns3-lr-wpan', 'ns3-internet-apps', 'ns3-internet', 'ns3-flow-monitor', 'ns3-energy', 'ns3-dsr', 'ns3-dsdv', 'ns3-csma-layout', 'ns3-csma', 'ns3-core', 'ns3-config-store', 'ns3-buildings', 'ns3-bridge', 'ns3-applications', 'ns3-aodv', 'ns3-antenna', ]
+NS3_ENABLED_CONTRIBUTED_MODULES = []
+NS3_MODULE_PATH = ['/Users/fyfaris/Library/Java/JavaVirtualMachines/ms-21.0.10/Contents/Home/bin', '/Users/fyfaris/Library/Application Support/Herd/bin/', '/Users/fyfaris/.local/bin', '/Users/fyfaris/Library/Java/JavaVirtualMachines/ms-21.0.10/Contents/Home/bin', '/opt/homebrew/bin', '/opt/homebrew/sbin', '/Library/Frameworks/Python.framework/Versions/3.14/bin', '/usr/local/bin', '/System/Cryptexes/App/usr/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin', '/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin', '/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin', '/Library/Apple/usr/bin', '/Users/fyfaris/ns-3-dev/build', '/Users/fyfaris/ns-3-dev/build/lib']
+ENABLE_EXAMPLES = False
+ENABLE_TESTS = False
+ENABLE_OPENFLOW = False
+NSCLICK = False
+ENABLE_BRITE = False
+ENABLE_SUDO = False
+ENABLE_PYTHON_BINDINGS = False
+FETCH_NETANIM_VISUALIZER = False
+EXAMPLE_DIRECTORIES = []
+APPNAME = 'ns'
+BUILD_PROFILE = 'default'
+VERSION = '3-dev' 
+BUILD_VERSION_STRING = '' 
+PYTHON = ['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14']
+VALGRIND_FOUND = False 
+CMAKE_PRESET = ''
+
+
+ns3_runnable_programs = ['/Users/fyfaris/ns-3-dev/build/utils/perf/ns3-dev-perf-io-default', '/Users/fyfaris/ns-3-dev/build/utils/ns3-dev-print-introspected-doxygen-default', '/Users/fyfaris/ns-3-dev/build/utils/ns3-dev-bench-packets-default', '/Users/fyfaris/ns-3-dev/build/utils/ns3-dev-bench-scheduler-default', '/Users/fyfaris/ns-3-dev/build/scratch/subdir/ns3-dev-scratch-subdir-default', '/Users/fyfaris/ns-3-dev/build/scratch/nested-subdir/ns3-dev-scratch-nested-subdir-executable-default', '/Users/fyfaris/ns-3-dev/build/scratch/ns3-dev-test-default', '/Users/fyfaris/ns-3-dev/build/scratch/ns3-dev-scratch-simulator-default', '/Users/fyfaris/ns-3-dev/cmake-cache/ns3-dev-stdlib_pch_exec-default', ]
+
+ns3_runnable_scripts = []
+
